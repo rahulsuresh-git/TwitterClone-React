@@ -37,7 +37,7 @@ export default class TweetBox extends Component {
                     /> <br />
                     <div className="tweet2">
                         <RaisedButton backgroundColor='#42B0F4' labelColor='#fff' label="Tweet" buttonStyle={{ borderRadius: 25 }}
-                            style={{ borderRadius: 25, margin: 12 }}
+                            style={{ borderRadius: 25, margin: 12, }}
 
                         /></div>
 
