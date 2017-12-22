@@ -100,17 +100,18 @@ padding:0;
   padding-left: 15px;
 
 }
-md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
-  color: white !important;
-  background-color:white !important;
-}
+
 .right a
 {
   color:#42B0F4;
 }
 .followbutton
-{border:2px;
-  padding: 10px;
+{border:1px;
+  width:100px;
+  text-align:center;
+  padding: 5px;
+  margin-top:5px;
+  font-weight: bold;
   border-radius: 30px;
   border-style:solid;
   border-color:#42B0F4;
@@ -125,8 +126,8 @@ md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
   text-align: justify;
 }
 .user
-{width: 10%;
-  height: 0 auto;
+{width: 36px;
+  height: 36px;
 border-radius: 50%;
 padding-left: 10px;
 padding-top:10px;
@@ -159,17 +160,23 @@ border-radius:6px;
   padding-left: 150px;
 }
 .nav-image
-{width: 7%;
-  height: 0 auto;
+{
 border-radius: 50%;
-padding-left: 10px;
-padding-top:10px;
+padding:10px 20px 0 20px ;
 margin-bottom: -10px;
+
 }
 .right-nav
 {
   margin-top: -10px;
-  margin-left: -230px;
-  margin-right:-120px;
+  margin-left: 100px;
+  margin-right:120px;
+
+}
+
+.search
+{
+  display: inline-block;
+margin-top: 10px;
 }
 
