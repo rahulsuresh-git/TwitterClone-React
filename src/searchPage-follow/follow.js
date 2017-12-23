@@ -36,8 +36,8 @@ export default class Filter extends Component {
 
 
             <img src={pic} style={{paddingLeft:15,paddingRight:15,display:'inline-block',float:'left'}}></img>
-            <p style={{display:'inline-block',fontWeight:'bold',paddingRight:15}}>User3</p> 
-            <p style={{display:'inline-block',color:"grey"}}>@AwesomeUser3</p> 
+            <p style={{display:'inline-block',fontWeight:'bold',paddingRight:15}}>User4</p> 
+            <p style={{display:'inline-block',color:"grey"}}>@AwesomeUser4</p> 
             <a href="#"><p style={{display:'inline-block',color:"#d3d3d3",paddingLeft:10}}>&#x2715; 
 </p> 
 </a>
@@ -47,8 +47,8 @@ export default class Filter extends Component {
             <hr style={{width:265,color:"#d3d3d3", borderTop: '0px',height: '1px',marginTop:20,backgroundColor:"#h3h3h3"}}></hr>
             <br></br>
             <img src={pic} style={{paddingLeft:15,paddingRight:15,display:'inline-block',float:'left'}}></img>
-            <p style={{display:'inline-block',fontWeight:'bold',paddingRight:15}}>User3</p> 
-            <p style={{display:'inline-block',color:"grey"}}>@AwesomeUser3</p> 
+            <p style={{display:'inline-block',fontWeight:'bold',paddingRight:15}}>User5</p> 
+            <p style={{display:'inline-block',color:"grey"}}>@AwesomeUser5</p> 
             <a href="#"><p style={{display:'inline-block',color:"#d3d3d3",paddingLeft:10}}>&#x2715; 
 </p> 
 </a>
@@ -56,7 +56,7 @@ export default class Filter extends Component {
             <a href="#">  <p className="followbutton">Follow</p></a>
             <br></br>
             <hr style={{width:265,color:"#d3d3d3", borderTop: '0px',height: '1px',marginTop:20,backgroundColor:"#h3h3h3"}}></hr>
-<p style={{fontSize:13,color:"#42B0F4",paddingLeft:15}}>Connect other address books</p>
+<a href="#"><p style={{fontSize:13,color:"#42B0F4",paddingLeft:15}}>Connect other address books</p></a>
             </Paper>
           </div>
                 );

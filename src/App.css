@@ -116,6 +116,7 @@ padding:0;
   border-style:solid;
   border-color:#42B0F4;
   color: #42B0F4;
+  font-size: 14px;
   
 }
 .followbutton:hover{
@@ -180,3 +181,33 @@ margin-bottom: -10px;
 margin-top: 10px;
 }
 
+.followingbutton
+{
+  border:1px;
+  width:100px;
+  text-align:center;
+  padding: 5px;
+  margin-top:5px;
+  font-weight: bold;
+  border-radius: 30px;
+  border-style:solid;
+  border-color:#42B0F4;
+  background-color: #42B0F4;
+color:#fff;
+font-size: 13px;
+}
+.followingbutton:hover
+{
+  border:1px;
+  width:100px;
+  text-align:center;
+  padding: 5px;
+  margin-top:5px;
+  font-weight: bold;
+  border-radius: 30px;
+  border-style:solid;
+  border-color:#AC002B;
+  background-color:#AC002B;
+color:#fff;
+font-size: 13px;
+}

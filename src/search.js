@@ -7,6 +7,8 @@ import Filter from './searchPage-filter/filter';
 import Follow from './searchPage-follow/follow';
 import TrendsCard from './searchPage-trends/trends';
 import Informed from './searchPage-informed/informed';
+import People from './searchPage-people/people';
+import Tweet from './searchPage-tweet/tweet';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
@@ -54,13 +56,16 @@ export default class Search extends Component {
               col-md-6
               col-lg-4">            
 <Informed/>
-<h3 style={{marginLeft:-70}}>People</h3>              
-              </div>
-            <div className="col-xs-12
-              col-sm-8
-              col-md-6
-              col-lg-4">            <p>hi</p>
-              </div>
+<h3 style={{marginLeft:-70}}>People</h3>     
+<People/>         
+
+<Tweet/>  <Tweet/>   <Tweet/>     
+<br></br>
+<p style={{color:'grey',paddingTop:10,paddingBottom:10}}> The content used in this page is only for mockup purposes. </p>
+
+   
+         </div>
+           
           </div>
 
         </MuiThemeProvider>

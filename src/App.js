@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <MuiThemeProvider>
-          <NavBar />
+          <NavBar style={{position:'absolute'}} />
           <br></br>
           <div className="row">
             <div className="col-lg-1"></div>
