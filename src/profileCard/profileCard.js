@@ -6,19 +6,17 @@ import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'm
 export default class ProfileCard extends Component {
     render() {
       return (
-        <Card>
+        <Card className='profile' style={{width:300,marginLeft:-20}}>
         <CardHeader
 
-          title=""
-          subtitle=""
           avatar='https://pbs.twimg.com/profile_images/816495374768553984/NgtD89Xu_400x400.jpg'
         />
         <CardMedia
         >
           <img src="https://pbs.twimg.com/profile_banners/2835933973/1512129066/1500x500" alt="" />
         </CardMedia>
-        <CardTitle title="TechInfinity" subtitle="@TechInfinityOfc" />
-        <CardText>
+        <CardTitle subtitleColor="#fff" titleColor="#fff" title="TechInfinity" subtitle="@TechInfinityOfc" />
+        <CardText color="#fff">
           <div className="row" id="first">
             <div className="col-lg-4">
             <h3>Tweets</h3>

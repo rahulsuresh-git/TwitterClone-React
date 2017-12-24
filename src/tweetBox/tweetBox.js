@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import { orange500, blue500 } from 'material-ui/styles/colors';
+import Paper from 'material-ui/Paper';
 
 const styles = {
     errorStyle: {
@@ -23,13 +24,24 @@ const styles = {
     borderRadius: 30,
 
   };
+
+  const style = {
+    height: 125,
+    width: 600,
+    marginLeft:0,
+    paddingLeft:10,
+    marginTop:-10,
+    marginBottom:-30,
+    textAlign: 'center',
+    display: 'inline-block',
+  };
 export default class TweetBox extends Component {
     render() {
         return (
 
             <div className="search">
-                <div className="tweet">
-                    <TextField
+                <Paper style={style} zDepth={2} >
+                    <TextField style={{width:500}}
                         hintText=""
                         hintStyle={styles.floatingLabelFocusStyle}
                         floatingLabelText="What's happening?"
@@ -37,11 +49,14 @@ export default class TweetBox extends Component {
                     /> <br />
                     <div className="tweet2">
                         <RaisedButton backgroundColor='#42B0F4' labelColor='#fff' label="Tweet" buttonStyle={{ borderRadius: 25 }}
-                            style={{ borderRadius: 25, margin: 12, }} labelStyle={{textTransform:'capitalize',textWeight:'bold'}}
+                            style={{ borderRadius: 25, marginLeft:260, }} labelStyle={{textTransform:'capitalize',textWeight:'bold'}}
 
                         /></div>
-
-                </div>
+<a href="#"><div className='see-new'> 
+  <p>See new tweets</p>
+  </div></a>
+                </Paper>
+              
           </div>
 
 

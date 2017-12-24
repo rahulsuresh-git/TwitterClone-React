@@ -1,30 +1,38 @@
 import React, { Component } from 'react';
-import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
+import Paper from 'material-ui/Paper';
+import pic from '../pic2.png'
 
-export default class TrendsCard extends Component {
-  render() {
-    return (
-      
-        <Card>
-        
-         <CardMedia
-         >
-         </CardMedia>
-         <CardTitle title="Trends for You" subtitle="" />
-         <CardText>
-        <a href="#">   <div className="hash">
-           <h3>#Idhayane</h3>
-           <h3>#5DaysForSPPR</h3>
-           <h3>#SportLooksGoodOnDelhi</h3>
-           <h3>#LifestyleOnlineSale</h3>
-           <h3>TZH ADVANCE BOOKING STARTS</h3>
-           <h3>#OPPODelhiTimesFreshFace</h3>
-           <h3>#SundayMorning</h3>
-           </div></a>
-         </CardText>
 
-       </Card>
-    );
+const style = {
+    height: 400,
+    width: 300,
+    marginTop:20,
+    marginLeft:-20,
+    textAlign: 'left',
+    display: 'inline-block',
+  };
+  
+export default class Trends extends Component {
+    render() {
+        return (
+            <div>
+            <Paper   style={style} zDepth={2}>
+            <h3 style={{paddingLeft:15,display:'inline-block'}}>Trends for you</h3>
+            <a href="#" style={{display:'inline-block',fontSize:13,paddingLeft:10}}><p>&bull; Change</p></a>
+<div style={{paddingLeft:15}}>
+           <a href="#"> <h3>#HondaCity20</h3></a>
+           <a href="#"> <h3>#ApolloXCFC</h3></a>
+           <a href="#">  <h3>#Dhoni</h3></a>
+           <a href="#">  <h3>#Movies</h3></a>
+           <a href="#"> <h3>#Weather</h3></a>
+           <a href="#"> <h3>#MondayMorning</h3></a>
+           <a href="#"> <h3>#RadioFM</h3></a>
+           <a href="#">  <h3>#Cyclone</h3></a>
+
+            </div>
+           </Paper>
+          </div>
+                );
   }
 }
 

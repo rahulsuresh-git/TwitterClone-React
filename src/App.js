@@ -26,9 +26,7 @@ class App extends Component {
               col-lg-3">
             <div className="box1">
               <ProfileCard />
-              <br></br>
               <TrendsCard />
-              <br></br><br></br>
             </div>
           </div>
           <div className="col-xs-12
@@ -37,11 +35,16 @@ class App extends Component {
             col-lg-4">
           <div className="box">
             <TweetBox />
-            <br></br>
+         
+         <div className="tweets">
             <Tweet />
-            <br></br>
             <Tweet />
+            <Tweet />
+            
+            </div>
             <br></br>
+            <p style={{color:'grey',paddingTop:10,paddingBottom:10}}> The content used in this page is only for mockup purposes </p>
+
           </div>
       </div>
         <div className="col-xs-12
@@ -49,9 +52,9 @@ class App extends Component {
           col-md-6
           col-lg-4">
         < div className="box3" >
-          <div className="right">
+        <div class="right">
             <Follow />
-          </div>
+            </div>
           <br></br>
           <Branding />
         </div >

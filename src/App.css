@@ -70,24 +70,13 @@ background-color: #000;
 
 }
 .box1
-{padding-left: 10px;}
+{margin-left:90px;}
 .right 
 {
-  width:90%;
-  height:300px;
-  background-color: #fff;
-  border-radius: 6px;
+  margin-left:115px;
+  margin-top:-20px;
 }
-.right_down
-{
-  color: #a0a0a0;
-width:96%;
-background-color: #fff;
-height: 100px;
-margin-left: -5px;
-border-radius:6px;
 
-}
 .follow
 {
   border-radius: 50%;
@@ -210,4 +199,35 @@ font-size: 13px;
   background-color:#AC002B;
 color:#fff;
 font-size: 13px;
+}
+
+.tweets
+{
+  margin-left:90px;
+}
+.see-new
+{
+  margin-left:-10px;
+  text-align:center;
+  background-color:#E6ECF0;
+  margin-top:30px;
+  color:#42B0F4;
+  padding:10px;
+  border:1px;
+  border-style:solid;
+  border-color:#42B0F4;
+}
+.see-new:hover
+{
+background-color:rgb(233, 233, 233);
+}
+.profile
+{
+  background: linear-gradient(to right, #2c3e50 , #2a5298);  
+
+}
+.followpaper
+{
+  background: linear-gradient(to right,#ee0979 , #ff6a00);  
+  
 }
