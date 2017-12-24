@@ -43,8 +43,7 @@ class App extends Component {
             
             </div>
             <br></br>
-            <p style={{color:'grey',paddingTop:10,paddingBottom:10}}> The content used in this page is only for mockup purposes </p>
-
+          
           </div>
       </div>
         <div className="col-xs-12
@@ -58,7 +57,12 @@ class App extends Component {
           <br></br>
           <Branding />
         </div >
+
+        
       </div >
+      <div style={{backgroundColor:"#b2b2b2",width:'100vw',textAlign:'center',marginTop:30}}>
+            <p style={{color:'#2b2b2b',paddingTop:10,paddingBottom:10}}> The content used in this page is for mockup purposes only. </p>
+</div>
 </div >
 </MuiThemeProvider >
 </div >

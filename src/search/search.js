@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
-import './Search.css';
+import '../App.css';
+import '../Search.css';
 import AppBar from 'material-ui/AppBar';
-import NavBar from './navBar/navBar';
-import Filter from './searchPage-filter/filter';
-import Follow from './searchPage-follow/follow';
-import TrendsCard from './searchPage-trends/trends';
-import Informed from './searchPage-informed/informed';
-import People from './searchPage-people/people';
-import Tweet from './searchPage-tweet/tweet';
+import NavBar from '../navBar/navBar';
+import Filter from '../searchPage-filter/filter';
+import Follow from '../searchPage-follow/follow';
+import TrendsCard from '../searchPage-trends/trends';
+import Informed from '../searchPage-informed/informed';
+import People from '../searchPage-people/people';
+import Tweet from '../searchPage-tweet/tweet';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import muiThemeable from 'material-ui/styles/muiThemeable';
-import Bar from './searchPage-bar/bar';
+import Bar from '../searchPage-bar/bar';
 import { Tabs, Tab } from 'material-ui/Tabs';
 
 
@@ -61,11 +61,12 @@ export default class Search extends Component {
 
 <Tweet/>  <Tweet/>   <Tweet/>     
 <br></br>
-<p style={{color:'grey',paddingTop:10,paddingBottom:10}}> The content used in this page is only for mockup purposes. </p>
 
-   
          </div>
-           
+         <div style={{backgroundColor:"#b2b2b2",width:'100vw',textAlign:'center',marginTop:30}}>
+<p style={{color:'#2b2b2b',paddingTop:10,paddingBottom:10}}> The content used in this page is for mockup purposes only. </p>
+</div>
+   
           </div>
 
         </MuiThemeProvider>

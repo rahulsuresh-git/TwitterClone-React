@@ -52,10 +52,10 @@ export default class NavBar extends Component {
           </Tabs></div>}
 
           iconElementRight={<div className="right-nav" >
-            <div className="search">
-              <SearchBar
+           <div className="search">
+              <SearchBar href="/search" id="foo" value=""
                 onChange={() => console.log('onChange')}
-                onRequestSearch={() => console.log('onRequestSearch')}
+                onRequestSearch={() =>window.open('/search','_blank')}
                 style={{
                   maxWidth: 400,
                   maxHeight: '40px',
@@ -64,7 +64,7 @@ export default class NavBar extends Component {
                 }}
               />
             </div>
-            <a href="#">          <img className="nav-image" src={pic} />
+            <a href="/search">          <img  className="nav-image" src={pic} />
             </a>
             <div style={{ display: 'inline-block',paddingTop:'10px' }}>
               <RaisedButton backgroundColor='#42B0F4' labelColor='#fff' label="Tweet" buttonStyle={{ borderRadius: 25 }}
