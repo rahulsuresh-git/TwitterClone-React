@@ -46,10 +46,17 @@ export default class Tweet extends Component {
           <img src="https://pbs.twimg.com/media/DRpiPZbX4AAHFk-.jpg:large" alt="" />
         </CardMedia>
        
-      <div style={{color:'grey',padding:'10px 10px 10px 20px',fontWeight:'bold'}}><a href="#"><i style={{fontSize:20,paddingRight:10}}
-       class="fa fa-comment-o" aria-hidden="true"></i><p style={{paddingRight:40}}>403</p><i style={{fontSize:20,paddingRight:10}}
-        class="fa fa-retweet" aria-hidden="true"></i><p style={{paddingRight:40}}>206</p><i style={{fontSize:20,paddingRight:10}}
-        class="fa fa-heart-o" aria-hidden="true"></i><p style={{paddingRight:40}}>821</p><i style={{fontSize:20,paddingRight:10}} 
+      <div className="tweetfunctions" style={{color:'grey',padding:'10px 10px 10px 20px',fontWeight:'bold'}}><a className="comment" href="#">
+      <i style={{fontSize:20,paddingRight:10}}
+       class="fa fa-comment-o" aria-hidden="true"></i><p style={{paddingRight:40}}>403</p></a>
+       
+       <a className="retweet" href="#"><i style={{fontSize:20,paddingRight:10}}
+        class="fa fa-retweet" aria-hidden="true"></i><p style={{paddingRight:40}}>206</p></a>
+        
+      <a className="like" href="#">  <i style={{fontSize:20,paddingRight:10}}
+        class="fa fa-heart-o" aria-hidden="true"></i><p style={{paddingRight:40}}>821</p></a>
+        <a className="dm" href="#">  
+        <i style={{fontSize:20,paddingRight:10}} 
         class="fa fa-envelope-o" aria-hidden="true"></i></a>
         
         

@@ -241,5 +241,24 @@ background-color:rgb(233, 233, 233);
 .followpaper
 {
   background: linear-gradient(to right,#ee0979 , #ff6a00);  
-  
+}
+.comment:hover
+{
+  color: #42B0F4;
+}
+.like:hover
+{
+  color: #E0245E;
+}
+.retweet:hover
+{
+  color: #55CF8D;
+}
+.dm:hover
+{
+  color:#42B0F4;
+}
+.tweetfunctions a
+{
+  color: grey;
 }
