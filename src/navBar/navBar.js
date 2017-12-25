@@ -21,7 +21,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <div style={{}}>
-        <AppBar style={{ height: 58, backgroundColor: ' #fff', overflow: 'hidden', textAlign: 'center' }} title={<div style={{ color: '#42B0F4', }}><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <AppBar style={{ height: 58, backgroundColor: ' #fff', overflow: 'hidden', textAlign: 'center' }} title={<div style={{ color: '#42B0F4', }}><a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </div>}
           showMenuIconButton={true}
           iconElementLeft={<div style={{ padding: 0, paddingLeft: 100 }}><Tabs tabItemContainerStyle={{ height: '50px', width: '425px' }}
@@ -60,7 +60,7 @@ export default class NavBar extends Component {
                   maxWidth: 400,
                   maxHeight: '40px',
                   borderRadius: '30px',
-           overflow: 'hidden'
+           
                 }}
               />
             </div>

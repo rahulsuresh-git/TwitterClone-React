@@ -4,11 +4,11 @@ import '../Search.css';
 import AppBar from 'material-ui/AppBar';
 import NavBar from '../navBar/navBar';
 import Filter from '../searchPage-filter/filter';
-import Follow from '../searchPage-follow/follow';
-import TrendsCard from '../searchPage-trends/trends';
+import Follow from '../follow/follow';
+import TrendsCard from '../trendsCard/trendsCard';
 import Informed from '../searchPage-informed/informed';
 import People from '../searchPage-people/people';
-import Tweet from '../searchPage-tweet/tweet';
+import Tweet from '../tweet/tweet';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
@@ -40,9 +40,8 @@ export default class Search extends Component {
           <div className="row">
             <div className="col-lg-1">
             </div>
-            <div className="col-xs-12
-              col-sm-8
-              col-md-6
+            <div className="
+       
               col-lg-3">
 <Filter /> 
 <Follow/>
@@ -51,9 +50,7 @@ export default class Search extends Component {
   <p>© 2017 Twitter About Help Center Terms <br></br>Privacy policy Cookies Ads info</p>
   </div>
               </div>
-            <div className="col-xs-12
-              col-sm-8
-              col-md-6
+            <div className="
               col-lg-4">            
 <Informed/>
 <h3 style={{marginLeft:-70}}>People</h3>     

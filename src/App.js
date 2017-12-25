@@ -20,18 +20,14 @@ class App extends Component {
           <br></br>
           <div className="row">
             <div className="col-lg-1"></div>
-            <div className="col-xs-12
-              col-sm-8
-              col-md-6
+            <div className="
               col-lg-3">
             <div className="box1">
               <ProfileCard />
               <TrendsCard />
             </div>
           </div>
-          <div className="col-xs-12
-            col-sm-8
-            col-md-6
+          <div className="
             col-lg-4">
           <div className="box">
             <TweetBox />
@@ -46,9 +42,7 @@ class App extends Component {
           
           </div>
       </div>
-        <div className="col-xs-12
-          col-sm-8
-          col-md-6
+        <div className="
           col-lg-4">
         < div className="box3" >
         <div class="right">
