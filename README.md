@@ -6,7 +6,7 @@ In the project directory, you need to run this command to install the node modul
 
 After that, in the project directory, you need to run this command to start the app:
 
-### `npm install`
+### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ## Screenshots 
 
-Home Page - ![Home Page](/image1.png "Home Page")
+Home Page - ![Home Page](/home_page.png "Home Page")
 
-Search Page - ![Search Page](/image2.png "Search Page")
+Search Page - ![Search Page](/search_page.png "Search Page")
 
