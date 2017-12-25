@@ -3,6 +3,7 @@ import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import { orange500, blue500 } from 'material-ui/styles/colors';
 import Paper from 'material-ui/Paper';
+import pic from '../images/logo.png'
 
 const styles = {
     errorStyle: {
@@ -41,7 +42,7 @@ export default class TweetBox extends Component {
 
             <div className="search">
                 <Paper style={style} zDepth={2} >
-                    <TextField style={{width:500}}
+                <img  className="tweet-image" styles={{marginLeft:-100}} src={pic} /> <TextField style={{width:500}}
                         hintText=""
                         hintStyle={styles.floatingLabelFocusStyle}
                         floatingLabelText="What's happening?"

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Paper from 'material-ui/Paper';
-import pic from '../pic2.png'
+import pic from '../images/user.png'
 
 
 const style = {

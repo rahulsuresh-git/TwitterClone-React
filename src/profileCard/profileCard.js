@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
+import pic from '../images/logo.png'
 
 
 
@@ -9,7 +10,7 @@ export default class ProfileCard extends Component {
         <Card className='profile' style={{width:300,marginLeft:-20}}>
         <CardHeader
 
-          avatar='https://pbs.twimg.com/profile_images/816495374768553984/NgtD89Xu_400x400.jpg'
+          avatar={pic}
         />
         <CardMedia
         >

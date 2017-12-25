@@ -8,7 +8,7 @@ import FlatButton from 'material-ui/FlatButton';
 import '../App.css';
 import RaisedButton from 'material-ui/RaisedButton';
 import FontIcon from 'material-ui/FontIcon';
-import pic from '../pic.png'
+import pic from '../images/logo.png'
 
 import SearchBar from 'material-ui-search-bar'
 
