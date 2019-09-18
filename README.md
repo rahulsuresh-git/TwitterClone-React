@@ -1,3 +1,12 @@
+# 🔮 Twitter Clone - React
+![Twitter React Clone](https://i.imgur.com/fJgm0dc.jpg)
+
+Twitter Clone built from scratch using React and material-ui!
+
+## Tech Stack
+❤️ ReactJS <br>
+🔥  material-ui
+
 ## Running the app
 
 In the project directory, you need to run this command to install the node modules:
